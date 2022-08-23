@@ -1,0 +1,96 @@
+
+div.active {
+  background-color: #333333;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+div.active a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+div.active a:hover {
+  background-color: #777;
+}
+body {
+  font-family: arial;
+}
+
+.form-login {
+  width: 400px;
+  height: 340px;
+  background: #252323;
+  margin: auto;
+  margin-top: 180px;
+  margin-bottom: 180px;
+  border-radius: 4px;
+  box-shadow: 7px 13px 37px #000;
+  box-sizing: border-box;
+  padding: 20px 30px;
+  font-family: 'calibri';
+  border-top: 4px solid #904caf;
+  color: white;
+}
+
+.form-login h5 {
+  margin: 0;
+  text-align: center;
+  height: 40px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid;
+  font-size: 20px;
+}
+
+.controls {
+  width: 95%;
+  border: 1px solid #f5a4c7;
+  margin-bottom: 15px;
+  border-radius: 4px;
+  padding: 10px 10px;
+  background: #252323;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+}
+
+.button-sesion {
+  width: 100%;
+  height: 40px;
+  background: rgb(144, 76, 175);
+  border: none;
+  color: white;
+  margin-bottom: 16px;
+  font-size: 18px;
+}
+
+.form-login p{
+  height: 40px;
+  text-align: center;
+  border-bottom: 1px solid;
+  font-size: 18px;
+}
+
+.form-login a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.form-login a:hover {
+  text-decoration: underline;
+}
+.Fondo{
+  background-color: #bebebe;
+  background-image: url("/IMG/IMGMasProd.jpg");
+  background-position: center;
+  background-size: cover;
+  opacity:20%;
+  width: 100%;
+  height: 800px;
+  position: absolute;
+  z-index: -1;
+}

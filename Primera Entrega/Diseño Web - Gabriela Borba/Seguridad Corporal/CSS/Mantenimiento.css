@@ -1,0 +1,15 @@
+.imagen{
+    width:100%;
+    text-align: center;
+}
+.mantenimiento p{
+    font-size: 100px;
+    text-align: center;
+    margin-top: 80px;
+}
+#ImagenMant{
+    width:300px;
+    height:300px;
+    padding:10px;
+    margin-bottom: 80px;
+}

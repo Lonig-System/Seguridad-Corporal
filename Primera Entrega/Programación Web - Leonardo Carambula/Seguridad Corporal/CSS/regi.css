@@ -1,0 +1,98 @@
+
+div.active {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+  
+}
+
+div.active a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+div.active a:hover {
+  background-color: #777777;
+}
+
+
+.form-register {
+  width: 400px;
+  background: #252323;
+  padding: 30px;
+  margin: auto;
+  margin-top: 90px;
+  margin-bottom: 90px;
+  border-radius: 4px;
+  font-family: 'calibri';
+  color: white;
+  box-shadow: 7px 13px 37px #000000;
+  box-sizing: border-box;
+  border-top: 4px solid #904caf;
+}
+
+.form-register p , h4{
+  height: 40px;
+  text-align: center;
+  border-bottom: 1px solid;
+}
+
+.form-register h4 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.controls {
+  width: 94%;
+  background: #252323;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #f5a4c7;
+  font-family: 'calibri';
+  font-size: 18px;
+  color: white;
+  font-weight: bold;
+
+}
+
+.form-register p {
+  height: 40px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 40px;
+}
+
+.form-register a {
+  color: white;
+  text-decoration: none;
+}
+
+.form-register a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.form-register .botons {
+  width: 100%;
+  background: #904caf;
+  border: none;
+  padding: 12px;
+  color: white;
+  margin: 6px 0;
+  font-size: 16px;
+}
+.Fondo{
+  background-color: #bebebe;
+  background-image: url("/IMG/IMGMasProd.jpg");
+  background-position: center;
+  background-size: cover;
+  opacity:20%;
+  width: 100%;
+  height: 800px;
+  position: absolute;
+  z-index: -1;
+}

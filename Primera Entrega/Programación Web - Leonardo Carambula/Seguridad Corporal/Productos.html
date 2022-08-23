@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" type="image/svg+xml" href="IMG/nati.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/Productos.css" />
+    <link rel="stylesheet" href="CSS/NavNFooter.css" />
+    <title>Seguridad Corporal</title>
+    
+</head>
+<body>
+    <!--Inicio de sesion, registro, logotipo e isotipo-->
+  <div class="InicioRegistro">
+    <a href="ini.html"><span class="glyphicon glyphicon-user"></span> Iniciar Sesión</a>
+    <a href="regi.html"><span class="glyphicon glyphicon-log-in"></span> Registrarse</a>
+   </div>
+   <div class="icono">
+    <a href="Index.html"><img id="nati" src="IMG/nati.png" title="nati"/></a>
+   <img id="isotipo" src="IMG/Isotipo.png" title="SeguridadCorporal"/>
+   </div>
+ <!--Navegacion-->
+ <nav>
+  <div class="page-nav">
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+        </div>
+      <ul class="nav navbar-nav">
+        
+    
+        <li class="active"><a href="Index.html">Inicio</a></li>
+        <li><a href="Productos.html">Productos</a></li>
+        <li><a href="Contacto.html">Contacto</a></li>
+        <li><a href="Mantenimiento.html">Carrito</a></li>
+        
+          <div class="buscar">
+          <input type="text" class="form-control" placeholder="Search">
+          <button type="submit" class="button-buscar">Buscar</button>
+          </div>
+        
+      </ul>
+      </div>
+  </div>
+</nav>
+
+   <!--Catalogo de productos-->
+   <div class="page-content">
+
+   <div class="flex catalogo">
+       
+        <div class="flex col-1">
+            
+            <ul>
+                <li class="catalogo">Catálogo</li>
+                <li><a href="mantenimiento.html">Guantes</a></li>
+                <li><a href="mantenimiento.html">Pantalones</a></li>
+                <li><a href="mantenimiento.html">Cascos</a></li>
+                <li><a href="mantenimiento.html">Zapatos</a></li>
+                <li><a href="mantenimiento.html">Otros</a></li>
+            </ul>
+
+        </div>
+        <div class="flex col-3">
+          <div class="product-container">
+            <h3>Casco</h3>
+            <a href="Mantenimiento.html">
+              <img src="IMG/A.jpg" />
+            </a>
+            <h1>$500</h1>
+            <button class="button-add" onclick="clickAlert()">Agregar al carrito</button>
+        </div>
+
+        <div class="product-container">
+          <h3>Guantes</h3>
+          <a href="Mantenimiento.html">
+            <img src="IMG/B.jpg" />
+          </a>
+          <h1>$500</h1>
+          <button class="button-add" onclick="clickAlert()">Agregar al carrito</button>
+      </div>
+
+        <div class="product-container">
+          <h3>Lentes</h3>
+          <a href="Mantenimiento.html">
+            <img src="IMG/C.jpg" />
+          </a>
+          <h1>$500</h1>
+          <button class="button-add" onclick="clickAlert()">Agregar al carrito</button>
+      </div>
+
+        <div class="product-container">
+          <h3>Pantalon</h3>
+          <a href="Mantenimiento.html">
+            <img src="IMG/D.jpg" />
+          </a>
+          <h1>$500</h1>
+          <button class="button-add" onclick="clickAlert()">Agregar al carrito</button>
+      </div>
+
+        <div class="product-container">
+          <h3>Zapatos</h3>
+          <a href="Mantenimiento.html">
+            <img src="IMG/E.jpg" />
+          </a>
+          <h1>$500</h1>
+          <button class="button-add" onclick="clickAlert()">Agregar al carrito</button>
+      </div>
+
+        <div class="product-container">
+            <h3>Chaleco</h3>
+            <a href="Mantenimiento.html">
+              <img src="IMG/F.jpg" />
+            </a>
+            <h1>$500</h1>
+            <button class="button-add" onclick="clickAlert()">Agregar al carrito</button>
+        </div>
+        </div>
+   </div>
+
+    </div>
+
+
+
+   
+    <footer>
+        <div class="footerp1">
+          <p>© 2022 - Todos los derechos reservados.</p>
+          <p>Desarrollado por Lonig System</p>
+        </div>
+        <div class="footerp2">
+          <p>Contacto:</p>
+          <p>Teléfono: 092 065 001</p>
+          <p>Correo: seguridadcorporal@gmail.com</p>
+        </div>
+    
+      </footer>
+
+    <script>
+        function showCart(x){
+            document.getElementById("products-id").style.display = "block";
+        }
+        function closeBtn(){
+            document.getElementById("products-id").style.display = "none";
+        }
+        function clickAlert() {
+            alert("Funcion no disponible actualmente");
+        }
+
+
+
+    </script>
+</body>
+</html>

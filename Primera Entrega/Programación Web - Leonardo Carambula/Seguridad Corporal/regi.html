@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="icon" type="image/svg+xml" href="IMG/nati.png" />
+  <link rel="stylesheet" href="CSS/regi.css">
+  <link rel="stylesheet" href="CSS/NavNFooter.css" />
+  <title>Seguridad Corporal</title>
+</head>
+<body>
+<!--Inicio de sesion, registro, logotipo e isotipo-->
+<div class="InicioRegistro">
+  <a href="ini.html"><span class="glyphicon glyphicon-user"></span> Iniciar Sesión</a>
+  <a href="regi.html"><span class="glyphicon glyphicon-log-in"></span> Registrarse</a>
+ </div>
+ <div class="icono">
+  <a href="Index.html"><img id="nati" src="IMG/nati.png" title="nati"/></a>
+  <img id="isotipo" src="IMG/Isotipo.png" title="SeguridadCorporal"/>
+ </div>
+<!--Navegacion-->
+ <nav>
+   <div class="page-nav">
+     <nav class="navbar navbar-inverse">
+       <div class="container-fluid">
+         <div class="navbar-header">
+         </div>
+       <ul class="nav navbar-nav">
+         
+     
+         <li class="active"><a href="Index.html">Inicio</a></li>
+         <li><a href="Productos.html">Productos</a></li>
+         <li><a href="Contacto.html">Contacto</a></li>
+         <li><a href="Mantenimiento.html">Carrito</a></li>
+        
+           <div class="buscar">
+           <input type="text" class="form-control" placeholder="Search">
+           <button type="submit" class="button-buscar">Buscar</button>
+           </div>
+         
+       </ul>
+       </div>
+   </div>
+ </nav>
+ <div class="Fondo">   </div> 
+
+  <section class="form-register">
+    <form action="REGI.php" method="POST">
+    <h4>Registrarse</h4>
+    <input class="controls" pattern="[a-zA-Z]+" required type="text" name="nombres" id="nombres" placeholder="Ingrese su Nombre">
+    <input class="controls" pattern="[a-zA-Z]+" required type="text" name="apellidos" id="apellidos" placeholder="Ingrese su Apellido">
+    <input class="controls" required type="email" name="correo" id="correo" placeholder="Ingrese su Correo">
+    <input class="controls" required type="password" name="contraseña" id="contraseña" placeholder="Ingrese su Contraseña">
+    <p>Estoy de acuerdo con <a href="#">Términos y Condiciones</a></p>
+    <input class="botons" type="submit" value="Registrar">
+    <p><a href="ini.html">Ya tengo Cuenta</a></p>
+    </form>
+  </section>
+
+   <footer>
+    <div class="footerp1">
+      <p>© 2022 - Todos los derechos reservados.</p>
+      <p>Desarrollado por Lonig System</p>
+    </div>
+    <div class="footerp2">
+      <p>Contacto:</p>
+      <p>Teléfono: 092 065 001</p>
+      <p>Correo: seguridadcorporal@gmail.com</p>
+    </div>
+  </footer>
+</body>
+</html>
